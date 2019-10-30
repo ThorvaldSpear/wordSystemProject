@@ -1,0 +1,37 @@
+<word> 
+	<realName> <!-- English translation of the word -->
+		
+	</realName>
+	<name> <!-- Name displayed in-game -->
+	
+	</name>
+	<wordType> <!-- Possible values: Noun, Verb, Adverb, Adjective, Connector -->
+		
+	</wordType>
+	<types> <!-- Describes spell (EG: Fire, Projectile, Modifier) -->
+	
+	</types>
+	<effect> <!-- Connects to generic type selectors -->
+	
+	</effect>
+</word>
+
+<!-- Example word -->
+<word> 
+	<realName> <!-- English translation of the word -->
+		Flame
+	</realName>
+	<name> <!-- Name displayed in-game -->
+		Ignis
+	</name>
+	<wordType> <!-- Possible values: Noun, Verb, Adverb, Adjective, Connector -->
+		Noun
+	</wordType>
+	<types> <!-- Describes spell (EG: Fire, Projectile, Modifier) -->
+		Fire
+		Modifier
+	</types>
+	<effect> <!-- Connects to generic type selectors -->
+		addFlame
+	</effect>
+</word>
